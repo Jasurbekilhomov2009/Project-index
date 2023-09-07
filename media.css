@@ -1,0 +1,149 @@
+@media screen and (max-width: 1570px) {
+   .right_box{
+      display: none;
+   }
+   .add_block{
+     width: 1100px;
+     
+   }
+   .left_box, .middle_box{
+     width: 600px;
+   }
+   .image-box{
+    width: 950px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 450px;
+   }
+   .main{
+    margin-left: 70px;
+   }
+   .img1{
+    width: 300px;
+   }
+   .orange-box{
+    width: 300px;
+   }
+   .h2{
+    margin-left: 100px;
+   }
+   .container{
+    width: 878px;
+    margin-left: 0px;
+    margin-right: 0px;
+   }
+   .input-box{
+    margin-top: 600px;
+   }
+   body{
+    width: 800px;
+   }
+   .four-box{
+    width: 850px;
+   }
+   .addition{
+     display: block;
+     margin-left: 70px;
+   }
+   .bottom_box{
+    display: none;
+   }
+
+   .h1{
+    margin-left: 160px;
+   }
+   .text{
+    margin-left: 100px;
+   }
+   .btn{
+    margin-left: 100px;
+   }
+   .p{
+    margin-left: 190px;
+   }
+   
+
+} 
+@media screen and (max-width: 1450px) {
+ 
+  .middle_box{
+    
+    width: 1100px;
+  }
+  .middle_box{
+    background-image: url(./Images/655330691_310_430.jpeg);
+  }
+  .add_block{
+    width: 1000px;
+    
+  }
+  .left_box, .middle_box{
+    width: 500px;
+  }
+}
+@media screen and (max-width: 1349px) {
+  .left_box{
+      display: none;
+     background-image: none;
+  }    
+  .middle_box{
+    height: 950px;
+    width: 900px;
+ 
+    
+  }
+  .main{
+    margin-top: 200px;
+  }
+  .bottom_box{
+    display: block;
+    margin-left: 200px;
+    margin-bottom: 50px;
+
+  }
+  .yanki{
+    font-size: 30px;
+    margin-right: 150px;
+  }
+  .h3{
+    font-size: 35px;
+    margin-left: 60px;
+  }
+
+  .bottom_box hr{
+    width: 100px;
+    margin-left: 160px;
+  }
+  .img{
+    display: block;
+  }
+  .two_items{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .imag{
+    display: block;
+  }
+  .addition{
+    display: none;
+  }
+
+
+}
+@media screen and (max-width: 1105px){
+  .img1:nth-child(3){
+    display: none;
+  }
+  .img1:nth-child(4){
+    display: none;
+  }
+  .input-box{
+    margin-top: 0px;
+  }
+  .four-box{
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 150px;
+  }
+} 
+
